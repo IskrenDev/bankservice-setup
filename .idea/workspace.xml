@@ -4,16 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c95f930-3d52-426d-aeb6-900a3cf392ee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="2c95f930-3d52-426d-aeb6-900a3cf392ee" name="Changes" comment="BIG BANG">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
+    <list id="3151149c-cea2-44bd-b995-fa90addd14f1" name="Changes by enrico" comment="" />
+    <list id="834fecb8-2194-4fdb-8728-fc4a4f2f1291" name="Changes by Enuma" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/org/example/Main.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="4" changelist="834fecb8-2194-4fdb-8728-fc4a4f2f1291" />
+        <range start1="4" end1="5" start2="6" end2="16" changelist="2c95f930-3d52-426d-aeb6-900a3cf392ee" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
@@ -30,6 +51,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -41,11 +66,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696252120648</updated>
-      <workItem from="1696252121737" duration="1000" />
+      <workItem from="1696252121737" duration="3159000" />
     </task>
+    <task id="LOCAL-00001" summary="BIG BANG">
+      <option name="closed" value="true" />
+      <created>1696253082756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696253082756</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BIG BANG" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIG BANG" />
   </component>
 </project>
