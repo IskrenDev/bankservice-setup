@@ -10,6 +10,24 @@ public class Account {
 
     private String client;
 
+//Geld einzahlen
+    public void deposit(BigDecimal balance) {
+        this.accountBalance = this.accountBalance.add(balance); //hier wird addiert mit add
+        System.out.println("Einzahlung: " + balance + "€\n");
+        System.out.println("Aktueller Kontostand von " + this.client + ": " + this.accountBalance + " €\n");
+    }
+
+    //Geld abheben
+    public void payout(BigDecimal balance) {
+        if (this.accountBalance.compareTo(balance)<0) {
+            System.out.println("Auszahlung nicht möglich");
+            return;
+        }
+        this.accountBalance = this.accountBalance.subtract(balance);
+        System.out.println("Auszahlung: " + balance + " €\n");
+        System.out.println("Aktueller Kontostand von " + this.client + ": " + this.accountBalance + " €\n");
+    }
+
     public Account(String accountNumber, BigDecimal accountBalance, String client) {
         this.accountNumber = accountNumber;
         this.accountBalance = accountBalance;
@@ -61,4 +79,5 @@ public class Account {
                 ", client='" + client + '\'' +
                 '}';
     }
+
 }

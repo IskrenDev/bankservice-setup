@@ -1,5 +1,7 @@
 package org.example;
 
+import java.math.BigDecimal;
+
 public class Main {
     public static void main(String[] args) {
             Client XXX1 = new Client("Enrico", "Hose", "0001");
